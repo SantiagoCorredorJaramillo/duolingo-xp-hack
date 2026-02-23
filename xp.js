@@ -88,11 +88,11 @@ const init = async () => {
   "mathFactorTree",
   "mathFractionFill"
 ],
-            fromLanguage: es,
+            fromLanguage: "es",
             isFinalLevel: false,
             isV2: true,
             juicy: true,
-            learningLanguage: en,
+            learningLanguage: "en",
             shakeToReportEnabled: true,
             skillId: ["d27d5bb6ea213911771a04d262cec4b9"],
             treeId: "14b1a2672c1bb3b250ebaa31b86c343e",
