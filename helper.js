@@ -20,7 +20,7 @@ function removeQuotes(str) {
 }
 
 async function getUserLanguages(){
-    const userLanguages = await fetch(`https://www.duolingo.com/2017-06-30/users/${userId}?fields=fromLanguage,learningLanguage`, {
+    const userLanguages = await fetch(`https://www.duolingo.com/2023-05-23/sessions/users/${userId}?fields=fromLanguage,learningLanguage`, {
         headers: headers,
         body: null,
         method: "GET",
