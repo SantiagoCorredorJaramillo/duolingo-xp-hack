@@ -3,7 +3,9 @@ run-name: 'Your study script is running! Click me to see its progress.'
 
 on:
   schedule:
-    - cron: '0 10 * * *' 
+    - cron: '0 10 * * *'   # 5 AM Colombia
+    - cron: '0 18 * * *'   # 1 PM Colombia
+    - cron: '0 2 * * *'    # 9 PM Colombia
   workflow_dispatch:
 
 jobs:
